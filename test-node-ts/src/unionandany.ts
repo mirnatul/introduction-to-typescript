@@ -8,6 +8,7 @@ let airlineSeat: 'aisle' | 'window' | 'middle' = 'aisle';
 
 const orders = ["12", "20", "30", "42"];
 
+// let currentOrder: any;
 let currentOrder: string | undefined;
 
 for (let order of orders) {
@@ -16,5 +17,4 @@ for (let order of orders) {
         break;
     }
 }
-
 console.log(currentOrder);
