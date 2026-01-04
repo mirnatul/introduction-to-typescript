@@ -1,6 +1,7 @@
 type Role = "admin" | "user";
 
 // handle never type (only need if role is changed in future)
+
 function assertNever(x: never): never {
     throw new Error(`Unhandled role: ${x}`);
 }
